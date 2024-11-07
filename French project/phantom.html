@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Treasure of the Templars</title>
+    <style>
+        /* Basic CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Georgia', serif;
+            background: url('https://wallpaperaccess.com/full/10528313.jpg'); /* Parchment background */
+            background-size: cover;
+            color: #333;
+            line-height: 1.6;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 20px;
+            height: 100%;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 100%;
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            position: sticky;
+            top: 0;
+        }
+
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        .sidebar h1 {
+            font-size: 3rem;
+            margin-bottom: 15px;
+        }
+
+        .content {
+            width: 80%;
+            background: rgba(255, 255, 255, 0.8); /* Light parchment-like background */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #60180a;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 40px;
+        }
+
+        /* Heading styling */
+        .topic-heading {
+            font-size: 3rem;
+            color: #60180a;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Description area styling */
+        .description {
+            font-size: 1.5rem;
+            color: #5a4d3e;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            height: auto;
+            min-height: 150px;
+            resize: vertical;
+            overflow-y: auto;
+            font-family: 'Georgia', serif;
+        }
+        
+        /* Ensuring text area looks good and scrolls if needed */
+        .description:focus {
+            outline: none;
+            border: 2px solid #60180a;
+            background-color: #fff;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h1>The Phantom of Opera</h1>
+            <p><a href="index.html">Back to Main Page</a></p>
+        </div>
+
+        <!-- Content -->
+        <div class="content">
+            <div class="topic-heading">The Phatom of opera</div>
+            
+            <div class="description" contenteditable="true">
+                <p>what do you want to add about Phantom of opera .</p>
+                <!-- You can write additional content or update this description as needed -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
